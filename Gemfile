@@ -22,8 +22,7 @@ gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '2.0.2'
-  gem 'rb-fsevent', '0.9.3', :require => false
-  gem 'growl', '1.0.3'
+  gem 'rb-fsevent', '0.9.3', :require => false if RUBY_PLATFORM =~ /darwin/i
 end
 
 group :production do
