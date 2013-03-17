@@ -1,4 +1,4 @@
 class UsersController < ApplicationController
-  def new--no-test-framework
+  def new
   end
 end
