@@ -1,13 +1,16 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.12'
+gem 'rails'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.13.0'
   gem 'guard-rspec', '2.5.1'
   gem 'guard-spork', '1.5.0'
+  gem 'guard-bundler'
   gem 'spork', '0.9.2'
+  gem 'terminal-notifier-guard'
 end
 
 # Gems used only for assets and not required
@@ -26,5 +29,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.12.2'
+  gem 'pg', '0.12.2' 
 end

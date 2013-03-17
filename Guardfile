@@ -65,3 +65,9 @@ notification :tmux,
    :failed  => 'brightred #orange',
    :pending => 'yellow #orange',
    :default => 'brightgreen #base01'
+
+guard 'bundler' do
+  watch('Gemfile')
+  # Uncomment next line if Gemfile contain `gemspec' command
+  # watch(/^.+\.gemspec/)
+end
