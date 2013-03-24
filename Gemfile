@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails', '3.2.13'
 gem 'bootstrap-sass'
 gem 'haml'
+gem 'bcrypt-ruby'
+gem 'jenkins-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -12,6 +14,13 @@ group :development, :test do
   gem 'guard-bundler'
   gem 'spork', '0.9.2'
   gem 'terminal-notifier-guard'
+  gem 'yarjuf'
+end
+
+group :development do
+  gem 'annotate'
+  gem 'awesome_print'
+  gem 'pry-rails'
 end
 
 # Gems used only for assets and not required

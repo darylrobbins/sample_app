@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites errors="0" failures="0" skipped="0" tests="28" time="1.761659" timestamp="2013-03-24T16:33:33-04:00">
+  <testsuite name="ApplicationHelper" tests="3" errors="0" failures="0" skipped="0">
+    <properties/>
+    <testcase name="ApplicationHelper full_title should include the page title" time="0.031161">
+    </testcase>
+    <testcase name="ApplicationHelper full_title should include the base title" time="0.000907">
+    </testcase>
+    <testcase name="ApplicationHelper full_title should not include a bar on the home page" time="0.000642">
+    </testcase>
+  </testsuite>
+  <testsuite name="User" tests="19" errors="0" failures="0" skipped="0">
+    <properties/>
+    <testcase name="User " time="0.069225">
+    </testcase>
+    <testcase name="User " time="0.065542">
+    </testcase>
+    <testcase name="User " time="0.063812">
+    </testcase>
+    <testcase name="User " time="0.062734">
+    </testcase>
+    <testcase name="User " time="0.062427">
+    </testcase>
+    <testcase name="User " time="0.072268">
+    </testcase>
+    <testcase name="User when name is not present " time="0.067261">
+    </testcase>
+    <testcase name="User when email is not present " time="0.064514">
+    </testcase>
+    <testcase name="User when name is too long " time="0.063393">
+    </testcase>
+    <testcase name="User when email format is invalid should be invalid" time="0.067647">
+    </testcase>
+    <testcase name="User when email format is valid should be valid" time="0.064361">
+    </testcase>
+    <testcase name="User when email address is already taken " time="0.068603">
+    </testcase>
+    <testcase name="User when password is not present " time="0.06676">
+    </testcase>
+    <testcase name="User when password doesn't match confirmation " time="0.063735">
+    </testcase>
+    <testcase name="User when password confirmation is nil " time="0.064046">
+    </testcase>
+    <testcase name="User with a password that's too short " time="0.12802">
+    </testcase>
+    <testcase name="User return value of authenticate method with valid password " time="0.132146">
+    </testcase>
+    <testcase name="User return value of authenticate method with invalid password " time="0.132791">
+    </testcase>
+    <testcase name="User return value of authenticate method with invalid password " time="0.130804">
+    </testcase>
+  </testsuite>
+  <testsuite name="Static pages" tests="5" errors="0" failures="0" skipped="0">
+    <properties/>
+    <testcase name="Static pages should have the right links on the layout" time="0.189469">
+    </testcase>
+    <testcase name="Static pages Home page " time="0.004667">
+    </testcase>
+    <testcase name="Static pages Help page " time="0.004438">
+    </testcase>
+    <testcase name="Static pages About page " time="0.004624">
+    </testcase>
+    <testcase name="Static pages Contact page " time="0.004552">
+    </testcase>
+  </testsuite>
+  <testsuite name="User pages" tests="1" errors="0" failures="0" skipped="0">
+    <properties/>
+    <testcase name="User pages signup page " time="0.00499">
+    </testcase>
+  </testsuite>
+</testsuites>
