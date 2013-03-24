@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails'
 gem 'bootstrap-sass'
+gem 'haml'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
